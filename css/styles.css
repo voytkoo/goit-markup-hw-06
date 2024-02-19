@@ -1003,6 +1003,7 @@ padding: 96px 0;
 .container-footer {
     flex-wrap: nowrap;
     align-items: baseline;
+    margin: 0 auto;
     gap: 0;
     }
 .link-text-footer {
@@ -1246,7 +1247,7 @@ padding: 96px 0;
     display: inline-block;
     text-decoration: underline;
 }
-.check-input:checked+.check-text>span {
+.check-input:checked+.check-text .span-label {
     fill: #F4F4FD;
     background-color: #404BBF;
     border: none;
